@@ -54,3 +54,40 @@ if ($result->num_rows > 0) {
 echo "</body>";
 echo "</html>";
 ?>
+
+<!-- 
+GIT HUB
+
+- Primera vez (subir proyecto por primera vez)
+
+cd /ruta/a/tu/proyecto          # Entrar a la carpeta de tu proyecto
+
+git init                         # Iniciar Git
+
+git add .                        # Agregar todos los archivos
+
+git commit -m "Primer commit"    # Crear primer commit
+
+git branch -M main               # Asegurar que la rama se llama main
+
+git remote add origin https://github.com/TuUsuario/nombre-repo.git   # Conectar a GitHub
+
+git push -u origin main          # Subir los archivos
+
+
+- Actualizar cambios
+
+git add .
+git commit -m "Mensaje claro del cambio"
+git push
+
+- clonar repo
+
+git clone https://github.com/TuUsuario/nombre-repo.git
+
+- Por si falla el push (conflictos remotos)
+
+git pull origin main --rebase
+git push
+
+-->
