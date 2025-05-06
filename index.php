@@ -30,7 +30,7 @@ echo "<link rel='stylesheet' href='style.css?v=" . time() . "'>";
 echo "</head>";
 
 echo "<body>";
-echo "<h2>Listado de Estudiantes</h2>";
+echo "<h1>Listado de Estudiantes</h1>";
 echo "<a href='insert.php'>Agregar Nuevo</a><br><br>";
 
 if ($result->num_rows > 0) {
