@@ -57,6 +57,7 @@ echo "</html>";
 
 <!-- 
 GIT HUB
+Como xampp no me deja hacerlo por la terminal de aca tengo que hacerlo desde git bash entrando como administrador
 
 - Primera vez (subir proyecto por primera vez)
 
